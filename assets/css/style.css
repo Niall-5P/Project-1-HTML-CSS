@@ -10,3 +10,58 @@ main {
 footer {
     background-color: black;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+@media screen and (min-width: 980px) {
+
+    /* Responsive CSS */
+    #nav {
+        height: 40px;
+    }
+
+    #nav ul,
+    #header {
+        display: flex;
+    }
+    
+    #logo {
+        flex-grow: 1;
+    }
+
+    #header div {
+        /*  display image and text in header next to each other on larger screens */
+        width: 50%;
+        
+    }
+
+
+
+
+
+}
