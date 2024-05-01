@@ -5,9 +5,26 @@
 
 /* Header */
 
+header {
+    background-color: peru;
+}
+
+/* Main content */
+main {
+    background-color: darkslategrey;
+}
+
+
 
 
 /* Footer */
+
+footer {
+    background-color: aqua;
+}
+
+
+
 #social-networks {
     text-align: center;
     padding: 20px 0;
