@@ -260,6 +260,7 @@ main {
     flex-wrap: wrap;
     align-content: space-around;
     justify-content: center;
+    flex-direction: column;
 }
 
 /* Footer */
