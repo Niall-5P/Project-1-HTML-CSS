@@ -71,7 +71,7 @@ header a {
 
 /* Adding hamburger feature */
 nav {
-    position: absolute;
+    position: fixed;
     background-color: #ffffff;
     width: 100%;
     left: 0;
