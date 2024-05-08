@@ -71,7 +71,7 @@ header a {
 
 /* Adding hamburger feature */
 nav {
-    position: fixed;
+    position: absolute;
     background-color: #ffffff;
     width: 100%;
     left: 0;
@@ -293,7 +293,7 @@ footer {
     /* Header */
     nav {
         display: block;
-        position: relative;
+        position: absolute;
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
