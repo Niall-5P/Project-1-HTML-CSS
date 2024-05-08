@@ -23,9 +23,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
 }
@@ -43,6 +41,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    position: fixed;
 
 }
 
@@ -61,7 +60,7 @@ header a {
     list-style-type: none;
 }
 
-#menu>li {
+#menu > li {
     margin-bottom: 1em;
 }
 
@@ -164,8 +163,7 @@ main {
     padding-left: 10px;
 }
 
-#cover-text>h2,
-#cover-text>h3 {
+#cover-text > h2, #cover-text > h3 {
     color: #ffffff;
 }
 
@@ -181,8 +179,8 @@ main {
     font-size: 280%;
 }
 
-#benefits-physical>div,
-#benefits-mental>div {
+#benefits-physical > div, 
+#benefits-mental > div {
     line-height: 20px;
     margin-bottom: 20px;
 }
@@ -293,7 +291,7 @@ footer {
     /* Header */
     nav {
         display: block;
-        position: absolute;
+        position: relative;
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
@@ -303,7 +301,7 @@ footer {
         display: flex;
     }
 
-    #menu>li {
+    #menu > li {
         padding-left: 1rem;
     }
 
@@ -314,7 +312,7 @@ footer {
     #logo {
         font-size: 280%;
         line-height: 75px;
-        margin: 0 0.5;
+        margin: 0 0.5rem;
     }
 
     /* Main content */
@@ -360,7 +358,7 @@ footer {
 
 /* Large devices (laptops and desktops, 992px and up */
 @media screen and (min-width: 992px) {
-    #menu a:hover {
+    #menu a:hover{
         border-bottom: 1px solid black;
     }
 
@@ -374,7 +372,7 @@ footer {
         flex-direction: row;
     }
 
-    #benefits>div {
+    #benefits > div {
         flex: 1;
     }
 
@@ -386,11 +384,11 @@ footer {
         order: 1;
     }
 
-    #benefits-mental>div {
+    #benefits-mental > div {
         align-self: flex-start;
     }
 
-    #benefits-physical>div {
+    #benefits-physical > div {
         align-self: flex-end;
     }
 }
