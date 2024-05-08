@@ -66,6 +66,7 @@ no unfixed bugs
     - In the GitHub repository, navigate to the Settings tab
     - From the source section drop-down menu, select the Master Branch
     - Once the master branch has been selected, the page provided the link to the completed website
+    https://niall-5p.github.io/Project-1-HTML-CSS/
 
 
 ### - Credits
