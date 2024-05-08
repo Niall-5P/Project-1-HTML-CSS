@@ -139,7 +139,9 @@ main {
     color: #fafafa;
 }
 
-
+.radio-buttons {
+    display: none;
+}
 
 
 /* Hero section */
