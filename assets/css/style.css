@@ -143,9 +143,7 @@ main {
     color: #fafafa;
 }
 
-.radio-buttons {
-    display: none;
-}
+
 
 
 /* Hero section */
@@ -249,7 +247,6 @@ main {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    margin-top: 20px auto;
     align-items: center;
     max-width: 800px;
     text-align: center;
