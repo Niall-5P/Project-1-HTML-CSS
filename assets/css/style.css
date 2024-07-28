@@ -64,7 +64,11 @@ header a {
     margin-bottom: 1em;
 }
 
-.active {
+#menu a.active,
+body.home #menu a[href="index.html"],
+body.about-us #menu a[href="aboutus.html"],
+body.sign-up #menu a[href="signup.html"],
+body.contact #menu a[href="contact.html"] {
     border-bottom: 1px solid black;
 }
 
@@ -243,12 +247,30 @@ main {
 /* About Us content */
 #about {
     display: flex;
-    padding-top: 20px;
-    margin-top: 30px;
-    align-items: baseline;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 20px auto;
+    align-items: center;
+    max-width: 800px;
+    text-align: center;
     flex-wrap: wrap;
     align-content: space-around;
     justify-content: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    padding: 0 10px;
 }
 
 /* Contact */

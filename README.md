@@ -1,85 +1,80 @@
-# Pub Quiz
+# Pub Quiz Website Overview
 
-The Pub Quiz website is a landing page for pub quiz enthusiasts designed to offer a hub where they can find schedules for upcoming quizzes, join competitions, and access a wide range of trivia questions to sharpen their skills. 
+The Pub Quiz website is designed as a central hub for pub quiz enthusiasts, providing information about upcoming quizzes, facilitating sign-ups for events, and offering a range of trivia questions to help users prepare and hone their skills.
 
-Users will be able to find out information about event times, pricing, contact information and there will be sign up form to participate.
+## Features
 
-# Features
+### Navigation
+- **Location:** Top of the page.
+- **Elements:**
+  - **Left Corner:** "Pub Quiz" linked to the top of the page.
+  - **Right Side:** Links to "About Us," "Sign Up," and "Contact" sections.
+- **Purpose:** Helps users quickly find key information about events.
 
-### - Navigation
-        - At the top of the page, the navigation shows the name pub quiz in the left corner. This is linked to the top of the page.
-        - The other navigation links are located on the right side: About us, Sign up, Contact which link to different sections of the same page.
-        - The navigation will help the user understand where key information about the event lies.
+### Header
+- **Content:**
+  - Displays "Pub Quiz" with a note that it is for adults only.
+  - Highlights benefits of participating.
+  - Lists quiz days, times, and locations as you scroll down.
+- **Visual Aid:**
+  - Screenshot available: ![Screenshot](assets/images/ScreenshotamIresponsive.png)
 
+### About Us Section
+- **Content:**
+  - Explains the purpose of the site.
+  - Describes the target audience.
 
-### - Header
-        - The header shows the words "Pub Quiz" and it explains it is for adults only.
-        - Details why you should enter, benefits etc.
-        - As you scroll down, it shows the days of the week, times and location of each quiz.
-        ![Screenshot](assets/images/ScreenshotamIresponsive.png)
+### Sign Up Form
+- **Purpose:**
+  - Collects user details for quiz participation.
+- **Fields:**
+  - First Name
+  - Last Name
+  - Email Address
 
+### Contact Section
+- **Content:**
+  - Encourages users to get in touch with queries.
+  - Provides phone number, email address, and street address.
 
-### - The About Us Section
+### Testing
+- **Browsers:**
+  - Tested on Chrome, Firefox, Safari.
+- **Responsiveness:**
+  - Verified on various screen sizes using devtools devices toolbar.
+- **Functionality:**
+  - Navigation, header, about us, sign up, and contact sections are readable and functional.
+  - Form submission tested and confirmed working.
 
-        - Details what the site is and who the target audience is.
+### Bugs
+- **Solved Bugs:**
+  - Removed irrelevant "road" value and "preference-road" id in the sign-up form to avoid user confusion.
+  - Other bugs are documented in the GitHub commit history.
+- **Validator Testing:**
+  - **HTML:** No errors.
+  - **CSS:** No errors.
+  - **Accessibility:** Score of 100.
 
+### Unfixed Bugs
+- No known unfixed bugs.
 
+### Deployment
+- **Platform:** GitHub Pages.
+- **Steps:**
+  - Navigate to the GitHub repository's Settings tab.
+  - Select the Master Branch from the source section drop-down menu.
+  - GitHub provides a link to the completed website upon selection.
+  - [Link to site](https://niall-5p.github.io/Project-1-HTML-CSS/)
 
-### - The Sign Up Form
-        - The sign up section has a form to collect users details so they can enter the pub quiz.
-        - The form collects the users first and last name and email address
+### Credits
+- **Projects Referenced:**
+  - Love Running project for code structure, social media links, sign-up form, and CSS styling.
+- **Assistance:**
+  - ChatGPT for troubleshooting.
 
+### Content
+- **Code:** Derived from the Love Running project.
+- **CSS:** Adapted from the Love Running project.
 
-
-### - The Contact Section
-        - The contact section encourages users to get in contact with any queries, providing a phone number, email address and street address.
-
-
-
-### - Testing
-        - I tested this page works in different browsers: Chrome, Firefox, Safari.
-        - I confirmed this project is responsive, looks well and functions on all standard screen sizes usgin the devtools devices toolbar.
-        - I checked that the navigation, header, about us, sign up, and contact text are all readable and easy to understand
-        - I have confirmed that the form works
-
-
-### - Bugs
-    - Solved bugs
-      - When the sign up form was completed, the final row had details of the love running project, I had to remove the "road" value and preference-road id and replace it with n/a so I         would not confuse the user. I could not leave the value empty as the html validator informed me.
-      - Lots of other bugs mentioned in the commit file on github
-
-### - Validator Testing
-    - HTML - no errors returned when passing through the official validator
-
-    - CSS - no errors found when passing through the jigsaw validator
-
-    - Accessibility score was 100
-
-### - Unfixed Bugs
-no unfixed bugs
-
-
-### - Deployment
-    - The site was deployed to GitHub pages.
-    - Deployment
-    - The site was deployed to GitHub pages. The steps to deploy are as follows:
-    - In the GitHub repository, navigate to the Settings tab
-    - From the source section drop-down menu, select the Master Branch
-    - Once the master branch has been selected, the page provided the link to the completed website
-    https://niall-5p.github.io/Project-1-HTML-CSS/
-
-
-### - Credits
-    - Love Running project
-    - Chat gpt to troubleshoot some errors
-    
-
-### - Content
-    - The code to make the social media links was taken from the love running project, as was the sign up form and general skeleton of the site.
-    - Most CSS styling was taken from love running project also.
-
-### - Media
-    - Images taken from [pexels](https://www.pexels.com/)
-
-
-
+### Media
+- **Images:** Sourced from [Pexels](https://www.pexels.com/).
